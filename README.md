@@ -3,7 +3,11 @@
 # Improving Employee Retention by Predicting Employee Attrition Using Machine Learning
 by Mochamad Galuh Saputra
 
+## Problem
 "Human resources (HR) are the key assets that need to be effectively managed by companies to achieve business goals efficiently. In this instance, we will be addressing an issue related to human resources within the company. Our focus is to understand how to retain employees in the current company, thus avoiding the inflation of costs associated with recruiting and training new personnel. By identifying the primary factors that lead to employee dissatisfaction, the company can promptly address these issues by implementing relevant programs tailored to the employees' concerns."
+
+## Objective
+Streamline the process and analysis to automate and enhance the accuracy of employee eligibility assessments.
 
 ## Data Understanding
 **![](https://lh7-us.googleusercontent.com/EFrzMBUXmeS4Gbm9XGX7hgnBACZGCb_MvfqBn8uxEbwAoHg7-JYjzdOcYewUtmNjoUS1cywS4Z5C1Guiu3GdFIzYtqtHu4n97EUEyNK13aAxRM4cpItzqY_F81LjSLsAv3va6h0RGtLdqQBwsS6UWa8mhg=s2048)**
@@ -87,6 +91,14 @@ The three most influential features are:
 1.  AlasanResign_ganti_karir 
 2.  LamaBekerja_Bulan 
 3.  JumlahKeikutsertaanProjek
+
+## Summary
+Project focuses on employee retention using machine learning.
+Dataset: 287 rows, 25 columns (18 categorical, 7 numerical).
+Preprocessing: Handled duplicates, nulls, dropped unnecessary columns, adjusted data types.
+EDA: Employee count increased till 2016, then declined. Data Analysts field have highest attrition rate.
+Modeling: DecisionTree chosen after tuning, demonstrated improved performance.
+Key Features: AlasanResign_ganti_karir, LamaBekerja_Bulan, JumlahKeikutsertaanProjek.
 
 ## Business Recommendation
 
