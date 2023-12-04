@@ -93,12 +93,12 @@ The three most influential features are:
 3.  JumlahKeikutsertaanProjek
 
 ## Summary
-Project focuses on employee retention using machine learning.
-Dataset: 287 rows, 25 columns (18 categorical, 7 numerical).
-Preprocessing: Handled duplicates, nulls, dropped unnecessary columns, adjusted data types.
-EDA: Employee count increased till 2016, then declined. Data Analysts field have highest attrition rate.
-Modeling: DecisionTree chosen after tuning, demonstrated improved performance.
-Key Features: AlasanResign_ganti_karir, LamaBekerja_Bulan, JumlahKeikutsertaanProjek.
+1.  Project focuses on employee retention using machine learning.
+2.  Dataset: 287 rows, 25 columns (18 categorical, 7 numerical).
+3.  Preprocessing: Handled duplicates, nulls, dropped unnecessary columns, adjusted data types.
+4.  EDA: Employee count increased till 2016, then declined. Data Analysts field have highest attrition rate.
+5.  Modeling: DecisionTree chosen after tuning, demonstrated improved performance.
+6.  Key Features: AlasanResign_ganti_karir, LamaBekerja_Bulan, JumlahKeikutsertaanProjek.
 
 ## Business Recommendation
 
