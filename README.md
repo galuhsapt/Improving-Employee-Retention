@@ -43,16 +43,20 @@ AlasanResign = masih_bekerja
 
 ## Exploratory Data Analysis
 **![](https://lh7-us.googleusercontent.com/pWoS1KT5xjT0iECgdkwJ7tTIdsCAnGX1TOW-uDvvRUz6FSdL_1uCR0Xyxmfo6dpVdQT5EGLaKRDyutTanbyLSser4JrZ7o952Mk87J-6rbsl5LRIqw4g-bC6nuyIJK1b4xyF6CkuB02f36dZjv3wI_V_Zg=s2048)**
+
 In the chart above, it can be observed that from 2006 to 2016, over the course of 10 years, the number of employees consistently increased, reaching its peak at 248 individuals. However, from 2016 to 2020, there has been a continuous reduction in the number of employees. This certainly requires further analysis to ensure it does not disrupt the workflow and the efficiency of the company's performance.
 
 **![](https://lh7-us.googleusercontent.com/_0WJ681WJF6fPoRbu2lnw4LT_aciKhVrYcFWAVsAdtQk3_PwA-oZ9V1rakUz3zySBG_-KtPrzguJxMZPbQGk7eR2zwzucVdFis8a2gQLIf79e7MuZsJ_z6-AZ-42BPUqSSc4W_lhBYuNtzwNXeDwVS_rTw=s2048)**
+
 The field of work with the highest attrition rate turns out to be in the Data Analyst domain. The attrition among employees in this field is significant, reaching up to 50% of the total employees in the Data Analyst job category.
 
 **![](https://lh7-us.googleusercontent.com/tuuUhdYI7n5HHw_vHTem0uxOiaajwAUjqhR5KA8duIuL5suVUZSy6veRVEYwN0_g364w23SaYZNF8YJmriiGVJSXO0RukkQ9_1GbjbKhoqCuM7sfJ6GSw3aChGwSFZCDZmqIcTZKTYer-kMyp9COqFnn5Q=s2048)**
+
 From the analysis of the previous graph, it is evident that the highest resignation rate occurs in the Data Analyst field. All resigning employees belong to the Fresh Graduate Program category, citing the primary reasons as a toxic work culture and internal conflicts. Interestingly, a significant portion of resigning employees has demonstrated excellent performance, indicating a potential loss of efficiency. The company needs to address the issue of a toxic work culture to retain high-potential employees and ensure smooth operational continuity.
 
 ## Modeling & Evaluation
 **![](https://lh7-us.googleusercontent.com/egDigklDI_hVslXkIUNJAhfUr4F7JSnYVcyU6vCrD6_MHENHItm_yoVxDtYhMY9tmd4pNju6QRaK3fyQfmlFzRS8uozgidzdxy8WVswqEsoIXEnYUjv_WTLbsSRk4m55StaYxXrqdBkFANrIW2yU0iorTg=s2048)**
+
 It appears that several machine learning models were initially tested, including 
  - RandomForest, 
  - LogisticRegression, 
@@ -64,11 +68,13 @@ It appears that several machine learning models were initially tested, including
 However, after hyperparameter tuning, the final model retained for testing is DecisionTree.
 
 **![](https://lh7-us.googleusercontent.com/n53hXVLwBe24pAp2_zOWt8hVzSQGrcHyIhs0-nJyMREpBpe21wFW5J5POq7svHG6fnvTHoaN9zrRgxBI31h9t3X40c0z36AkfYo8Skz1yVwo8wMFCY0CjWpGdEZ4UlS7lxyr1iEnnEEUcpdF5NZpgKc8bg=s2048)**
+
 From the results of the initial modeling, it appears that all models achieved a perfect score of 1.0. Therefore, it is necessary to perform HYPERPARAMETER TUNING to prevent overfitting.
 
 The model chosen for hyperparameter tuning is DecisionTree, with the primary metric being Recall. After tuning, the model has been improved.
 
 **![](https://lh7-us.googleusercontent.com/Yl4Len27UguomR4k9kn_009xwvUwpFRo5ExNrNwYKNUDAJL0C0bKp0wCf_Hr56mZnQBH2br1_xEshcWYFa2k_NUT6mH0C0Zqlt3DiiCC11iR8AXZv84z0BYm6le7xgxtAfu6w03lj37FEBQBkFCI9JQ60Q=s2048)**
+
 From the Confusion Matrix results provided, it is evident that before tuning, the model was overly perfect in learning from the training data. However, after tuning, the model's performance has improved.
 
 **![](https://lh7-us.googleusercontent.com/cyfWkaMof_-qfU4dBV5TjoqqzNGPOxqjb_1ytZT0IMGKoMoCNBh509HK4o3TVR8GijbJdxP187vfwSRAQLdCdHr6gYaD3VE8sLuVtqVDSy9gKvM31rIsmYAk9JVTNt-ihv3qHseCy8UgWFEKc2UiQpWlsA=s2048)**  
